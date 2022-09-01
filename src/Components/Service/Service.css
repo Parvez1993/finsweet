@@ -1,0 +1,56 @@
+.services {
+  font-family: "Poppins", sans-serif;
+  background: #f4f6fc;
+}
+
+.services .container .box {
+  column-gap: 142px;
+  padding: 128px 0;
+}
+
+.services .left {
+  width: 40%;
+}
+
+.services .left h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.services .left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 16px 0;
+  width: 405px;
+  opacity: 0.7;
+}
+
+.services .sercices__contact {
+  display: inline-block;
+  color: #2405f2;
+  margin-top: 2px;
+}
+
+.services .right {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 39px;
+  column-gap: 25px;
+}
+
+.services .right__content h2 {
+  font-size: 32px;
+  font-weight: 500;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+
+.services .right__content p {
+  width: 303px;
+  font-weight: 16px;
+  line-height: 28px;
+  opacity: 0.7;
+}

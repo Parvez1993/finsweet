@@ -1,0 +1,60 @@
+.banner {
+  background: #1c1e53;
+  font-family: "Poppins", sans-serif;
+  padding-top: 126px;
+  padding-bottom: 128px;
+}
+
+.banner__box {
+  column-gap: 00px;
+}
+
+.banner .text {
+  width: 50%;
+  color: #fff;
+}
+.banner h1 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  width: 582px;
+}
+
+.banner p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  width: 562px;
+  opacity: 70%;
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.banner .img {
+  width: 50%;
+}
+
+.banner .btn {
+  font-family: "Manrope", sans-serif;
+  padding: 16px 56px;
+  background: #fcd980;
+  width: 230px;
+  border-radius: 41px;
+  color: #000;
+}
+
+.button__box {
+  display: flex;
+  background: red;
+}
+
+.banner .btn__container .pricing {
+  color: white;
+  display: inline-block;
+  margin-left: 48px;
+}
+
+.banner .btn__container .pricing i {
+  margin-left: 15px;
+}
