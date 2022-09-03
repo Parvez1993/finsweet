@@ -33,6 +33,10 @@
   margin-top: 2px;
 }
 
+.services .sercices__contact i {
+  margin-left: 16px;
+}
+
 .services .right {
   width: 60%;
   display: flex;

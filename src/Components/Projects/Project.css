@@ -1,0 +1,136 @@
+.project {
+  font-family: "Poppins", sans-serif;
+  padding: 128px;
+}
+.project .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.project .title h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.project .title a i {
+  margin-left: 16px;
+}
+
+.left {
+  position: relative;
+  overflow: hidden;
+}
+
+.project .left .project__box__img {
+  display: block;
+  width: 100%;
+}
+
+.project .left_content {
+  display: none;
+}
+
+.project .left_content {
+  background: linear-gradient(
+    329.39deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+  width: 396px;
+  position: absolute;
+  top: 0;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  left: -50%;
+  transition: all 0.3s linear;
+}
+
+.project .left:hover .left_content {
+  left: 0 !important;
+}
+
+.project .left_content .details {
+  margin-left: 48px;
+}
+.project h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 36px;
+}
+
+.project p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 28px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  width: 293px;
+}
+
+.project .project__btn {
+  color: #fcd980;
+  padding-bottom: 76px;
+}
+
+.project .project__btn {
+  display: inline-block;
+  padding-bottom: 76px;
+}
+
+.project__box .right__content {
+  position: relative;
+  overflow: hidden;
+}
+
+.project__box .right_content_text {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    333deg,
+    rgba(28, 30, 83, 1) 0%,
+    rgba(28, 30, 83, 0.42) 100%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: 0.4s;
+  transform: scale(0);
+}
+
+.project__box .right__content:hover .right_content_text {
+  transform: scale(1);
+}
+
+.project__box .right__content:nth-child(1) {
+  padding-bottom: 16px;
+}
+
+.project__box .right_content_text .details {
+  width: 279px;
+}
+
+.project__box .right_content_text .details h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 36px;
+  margin-top: 129px;
+}
+
+.project__box .right_content_text .details a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fcd980;
+  padding-top: 10px;
+  padding-bottom: 45px;
+}

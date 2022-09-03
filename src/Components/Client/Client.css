@@ -1,0 +1,112 @@
+.client {
+  font-family: "Poppins", sans-serif;
+  padding: 130px 0;
+}
+.client .box {
+  align-items: flex-start;
+  column-gap: 110px;
+}
+.client .left {
+  width: 35%;
+}
+
+.client .left h2 {
+  width: 327px;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+}
+
+.client .left p {
+  width: 327px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  /* Dark blue */
+
+  color: #282938;
+  margin-top: 16px;
+  opacity: 0.7;
+}
+
+.client .right {
+  width: 65%;
+}
+
+.client .right h2 {
+  width: 843px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* or 150% */
+
+  /* Dark blue */
+
+  color: #282938;
+}
+
+.client_left .client_info {
+  display: flex;
+  align-items: center;
+  color: #282938;
+  width: 50%;
+}
+
+.client_info_text {
+  margin-left: 16px;
+}
+
+.client_left .client_info h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.client_left .client_info p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  color: #282938;
+}
+
+.client_right {
+  display: flex;
+}
+
+.client_right .left_arrow {
+  height: 22px;
+  width: 13px;
+  padding: 13px 18.2px 13px 17px;
+  color: #282938;
+  transition: all 0.2s ease-out;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.client_right .left_arrow:hover {
+  background: #5239fa;
+
+  color: #fff;
+}
+
+.client_right .right_arrow {
+  padding: 13px 18.2px 13px 17px;
+  height: 22px;
+  width: 13px;
+  border-radius: 50%;
+  color: #282938;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.client_right .right_arrow:hover {
+  background: #5239fa;
+
+  color: #fff;
+}
+
+.client_container {
+  margin-top: 48px;
+}
