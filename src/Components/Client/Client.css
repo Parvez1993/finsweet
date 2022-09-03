@@ -1,6 +1,7 @@
 .client {
   font-family: "Poppins", sans-serif;
   padding: 130px 0;
+  background: #f4f6fc;
 }
 .client .box {
   align-items: flex-start;

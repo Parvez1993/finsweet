@@ -1,0 +1,103 @@
+.faq {
+  font-family: "Poppins", sans-serif;
+}
+
+.faq .box {
+  align-items: flex-start;
+  column-gap: 136px;
+}
+.faq .faq_left {
+  width: 30%;
+}
+.faq .faq_right {
+  width: 70%;
+}
+.faq .faq_left h2 {
+  width: 328px;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  color: #282938;
+}
+
+.faq .faq_left p {
+  margin-top: 16px;
+  cursor: pointer;
+  color: #2405f2;
+  opacity: 0.87;
+}
+
+.faq .faq_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.faq .faq_container .no {
+  width: 10%;
+  /* Royal Blue */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+
+  color: #2405f2;
+}
+
+.faq .faq_container .faq_text {
+  width: 80%;
+  margin-left: 59px;
+  margin-right: 89.68px;
+}
+
+.faq .faq_container .faq_text h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  /* Dark blue */
+  color: #282938;
+}
+.faq .faq_container .faq_text p {
+  width: 624px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  /* Dark blue */
+  color: #282938;
+
+  opacity: 0.87;
+  margin-top: 16px;
+}
+
+.faq .faq_container i {
+  width: 10%;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 16px;
+  height: 16px;
+  color: #282938;
+  opacity: 0.7;
+  font-size: 24px;
+}
+
+.faq .underline {
+  border: 1px solid #ececf1;
+  width: 843px;
+  margin-top: 48px;
+  margin-bottom: 32px;
+  transition: all cubic-bezier(0.39, 0.575, 0.565, 1) ease;
+}
+.faq .underline:last-child {
+  display: none;
+}
+
+.faq .hidePara {
+  display: none;
+}
+
+.faq .showPara {
+  display: block;
+}

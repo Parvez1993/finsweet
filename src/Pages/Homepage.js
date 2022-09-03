@@ -5,6 +5,7 @@ import Banner from "../Components/Banner/Banner";
 import Project from "../Components/Projects/Projects";
 import Features from "../Components/Features/Features";
 import Client from "../Components/Client/Client";
+import Faq from "../Components/FAQ/Faq";
 function Homepage() {
   return (
     <>
@@ -14,6 +15,7 @@ function Homepage() {
       <Project />
       <Features />
       <Client />
+      <Faq />
     </>
   );
 }
